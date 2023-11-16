@@ -19,7 +19,7 @@ body{
 }
 
 .video{
-    height: 100%;
+    height: 1080px;
     width: 100%;
     position: absolute;
     z-index: -1;
@@ -76,6 +76,8 @@ ul{
     flex-direction: column;
     gap: 10px;
     color: #74eeb3;
+    list-style: none;
+    font-size: 1.1rem;
 }
 
 .container-firstinfo{
@@ -88,6 +90,7 @@ ul{
 
 .lista{
     font-family: 'Work Sans', sans-serif;
+    text-align: center;
 }
 
 .nome{
@@ -112,7 +115,7 @@ ul{
 .container-bio{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 65%;
     color: #74eeb3;
     background-color: #20344c;
     border-radius: 5px;
@@ -154,6 +157,10 @@ ul{
     transition: 250ms;
 }
 
+.arrow-icon{
+    position: fixed;
+    z-index: -99;
+}
 
 a{
     cursor: url(/Assets/icons8-select-cursor-48.png), auto;
@@ -294,11 +301,13 @@ a{
     justify-content: center;
     align-items: center;
     background: #353535;
-    font-size: 3rem;
+    font-size: 2.9rem;
     font-family: 'Space Mono', monospace;
-    color: #ffffff;
+    color: #000;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke-width: 1px;
     box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
-    height: 300px;
+    height: 335px;
     width: 100%;
     border-radius: 4px;
     transition: all 250ms;
@@ -358,7 +367,7 @@ a{
         font-size: 2rem;
         color: #ffffff;
         box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
-        height: 300px;
+        height: 350px;
         width: 100%;
         border-radius: 4px;
         transition: all 250ms;
@@ -388,4 +397,120 @@ a{
         padding-bottom: 100px;
     }
     
+    .container-bio{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        color: #74eeb3;
+        background-color: #20344c;
+        border-radius: 5px;
+        border: 1px solid white;
+        transition: 500ms;
+    }
+}
+
+@media (max-width: 1204px){
+    .card {
+        height: 165px;
+    }
+
+    .container-foto{
+        height: 0px;
+        width: 0px;
+    }
+
+    .foto{
+        background-color: none;
+        border: none;
+    }
+
+    .container-info{
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        padding-bottom: 100px;
+        padding-left: 0;
+        color: white;
+    }
+
+    .BIO-SOCIALS{
+        display: flex;
+        align-items: center;
+    }
+
+    .container-esquerda{
+        display: flex;
+        align-items: center;
+    }
+
+    .container-socials{
+        box-shadow: none;
+        height: 100px;
+    }
+
+    .discord:hover{
+        height: 100px;
+    }
+
+    .spotify:hover{
+        height: 100px;
+    }
+
+    .github:hover{
+        height: 100px;
+    }
+
+    .linkedin:hover{
+        height: 100px;
+    }
+}
+
+@media (max-width: 960px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .container-esquerda{
+        padding: 25px 0px 0px;
+    }
+
+    .container-bio{
+        font-size: 13px;
+    }
+
+    .container-info{
+        padding-bottom: 50px;
+    }
+
+    .arrow-icon{
+        position: static;
+    }
+
+    .card{
+        width: 430px;
+    }
+
+    .container-principal{
+        width: fit-content;
+        max-width: 100vw;
+    }
+
+    .container-direita{
+        padding-bottom: 40px;
+    }
+
+    video{
+        height: 0;
+        width: 0;
+        opacity: 0;
+    }
+
+    body{
+        background: url(/Assets/cool-background.png);
+        background-repeat: no-repeat;
+        background-size: 4080px;
+    }
 }

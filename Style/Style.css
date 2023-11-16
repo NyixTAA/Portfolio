@@ -303,9 +303,7 @@ a{
     background: #353535;
     font-size: 2.9rem;
     font-family: 'Space Mono', monospace;
-    color: #000;
-    -webkit-text-fill-color: #ffffff;
-    -webkit-text-stroke-width: 1px;
+    color: #ffffff;
     box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
     height: 335px;
     width: 100%;

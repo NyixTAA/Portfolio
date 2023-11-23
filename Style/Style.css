@@ -24,6 +24,7 @@ body{
     position: absolute;
     z-index: -1;
     object-fit: fill;
+    filter: blur(2px);
 }
 
 .container-esquerda{
@@ -442,46 +443,21 @@ a{
         height: 100px;
     }
 
-    #discord{
-        background-image: url(/Assets/icons8-discord-100.svg);
+
+    #discord:hover{
         height: 100px;
-        background-repeat: no-repeat;
-        display: flex;
-        align-items: center;
-        background-color: #6c3f8a;
-        transition: 250ms;
     }
 
-    #spotify{
-        background-image: url(/Assets/icons8-spotify-100.svg);
+    #spotify:hover{
         height: 100px;
-        background-repeat: no-repeat;
-        display: flex;
-        align-items: center;
-        background-color: #4aad4f;
-        transition: 250ms;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
     }
 
-    #github{
-        background-image: url(/Assets/icons8-github-100.svg);
+    #github:hover{
         height: 100px;
-        background-repeat: no-repeat;
-        display: flex;
-        align-items: center;
-        background-color: #424465;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
     }
 
-    #linkedin{
-        background-image: url(/Assets/icons8-linkedin.svg);
+    #linkedin:hover{
         height: 100px;
-        background-repeat: no-repeat;
-        display: flex;
-        align-items: center;
-        background-color: #3f668a;
     }
 }
 
@@ -491,6 +467,10 @@ a{
         flex-direction: column;
         align-items: center;
         padding: 0;
+        background-image: url(https://i0.wp.com/i.pinimg.com/originals/f2/44/79/f24479553e8919bb806886e7454de13f.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     .container-esquerda{
@@ -499,6 +479,11 @@ a{
 
     .container-bio{
         font-size: 13px;
+    }
+
+    .container-socials{
+        background-color: #20344c;
+        border: none;
     }
 
     .container-info{
@@ -520,6 +505,10 @@ a{
         cursor: url(/Assets/icons8-select-cursor-48.png), auto;
     }
 
+    .card{
+        font-size: 1.7rem;
+    }
+
     .container-principal{
         width: fit-content;
         max-width: 100vw;
@@ -531,14 +520,59 @@ a{
     }
 
     video{
-        height: 0;
-        width: 0;
         opacity: 0;
     }
 
-    body{
-        background: url(/Assets/cool-background.png);
+    #discord{
+        height: 100px;
         background-repeat: no-repeat;
-        background-size: 4080px;
+        display: flex;
+        align-items: center;
+        transition: 250ms;
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+    }
+
+    #spotify{
+        height: 100px;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        transition: 250ms;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    #github{
+        height: 100px;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    #linkedin{
+        height: 100px;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        border-right: 1px solid white;
+    }
+
+    #discord:hover{
+        background-color: #ffffff00;
+    }
+
+    #spotify:hover{
+        background-color: #ffffff00;
+    }
+
+    #github:hover{
+        background-color: #ffffff00;
+    }
+
+    #linkedin:hover{
+        background-color: #ffffff00;
     }
 }

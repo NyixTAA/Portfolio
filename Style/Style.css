@@ -484,6 +484,7 @@ a{
     .container-socials{
         background-color: #20344c;
         border: none;
+        height: fit-content;
     }
 
     .container-info{
@@ -524,7 +525,7 @@ a{
     }
 
     #discord{
-        height: 100px;
+        height: 75px;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
@@ -534,7 +535,7 @@ a{
     }
 
     #spotify{
-        height: 100px;
+        height: 75px;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
@@ -544,7 +545,7 @@ a{
     }
 
     #github{
-        height: 100px;
+        height: 75px;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
@@ -553,7 +554,7 @@ a{
     }
 
     #linkedin{
-        height: 100px;
+        height: 75px;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
@@ -562,17 +563,21 @@ a{
 
     #discord:hover{
         background-color: #ffffff00;
+        height: 75px;
     }
 
     #spotify:hover{
         background-color: #ffffff00;
+        height: 75px;
     }
 
     #github:hover{
         background-color: #ffffff00;
+        height: 75px;
     }
 
     #linkedin:hover{
         background-color: #ffffff00;
+        height: 75px;
     }
 }

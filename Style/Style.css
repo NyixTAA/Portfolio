@@ -328,12 +328,12 @@ a{
     background-image: url(https://cdn.discordapp.com/attachments/1077258727977123990/1172661566987051129/download.gif?ex=65612130&is=654eac30&hm=df19a22ced596cef04ce3972b8926867ec7704ee1eb76f847372e5cd580d0a1e&);
 }
 
-#pokemon{
-    background-image: url(/Assets/pokemon.png);
+#projetos{
+    background-image: url(/Assets/projetos.png);
 }
 
-#pokemon:hover{
-    background-image: url(https://cdn.discordapp.com/attachments/1077258727977123990/1172661565208662137/pokemon.gif?ex=65612130&is=654eac30&hm=ffdf8dc66b88997b1cf20f5ef81911bd19e1afa94e042eec834dbc22944c8ccd&);
+#projetos:hover{
+    background-image: url(https://cdn.discordapp.com/attachments/1077258727977123990/1177734488025993436/projetos.gif?ex=657395b7&is=656120b7&hm=2b40249b985a3aca5110ed223d533f1104dc87fc0e2974cd001ee16e41cf35ab&);
 }
 
 #modelagem{
@@ -341,7 +341,7 @@ a{
 }
 
 #modelagem:hover{
-    background-image: url(https://cdn.discordapp.com/attachments/1077258727977123990/1172661565854589008/modelagem.gif?ex=65612130&is=654eac30&hm=6f5faef069a9272ea45b34be56917b4ec2e89a038537a414e2a083c43fbed83c&);
+    background-image: url(https://art.ngfiles.com/images/1594000/1594446_pinkmoth_quickie-gear-gif.gif?f1610837374);
 }
 
 #jogos{

@@ -525,7 +525,9 @@ a{
     }
 
     #discord{
+        background-image: url(https://cdn.discordapp.com/attachments/1077258727977123990/1183556325838434314/icons8-discord-65_1.png?ex=6588c3b9&is=65764eb9&hm=49c07cd2afacf424da641ddefed02be4ef8e61339fd405bfdb793e389aed8cba&);
         height: 75px;
+        width: 80px;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
@@ -535,7 +537,9 @@ a{
     }
 
     #spotify{
-        height: 75px;
+        background-image: url(https://cdn.discordapp.com/attachments/1077258727977123990/1183556327579070484/icons8-spotify-65_1.png?ex=6588c3b9&is=65764eb9&hm=9841bf3f02924d507071b4e8822ceef6a99b84a326c5f416b1c5a55956c8f0f9&);
+        height: 80px;
+        width: 80px;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
@@ -545,7 +549,9 @@ a{
     }
 
     #github{
-        height: 75px;
+        background-image: url(https://cdn.discordapp.com/attachments/1077258727977123990/1183555210744963143/icons8-github-65_1.png?ex=6588c2af&is=65764daf&hm=2ce356f66a74b86c6938a1445f8509b54ce2a5d7303c3e7528f8ce5533bd20a3&);
+        height: 80px;
+        width: 80px;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
@@ -554,7 +560,9 @@ a{
     }
 
     #linkedin{
-        height: 75px;
+        background-image: url(https://cdn.discordapp.com/attachments/1077258727977123990/1183556326870229012/icons8-linkedin-65_1.png?ex=6588c3b9&is=65764eb9&hm=397160afbca64bcb33942667fd5b69afd9c0261a5fa6eda555b98d214fec7f8e&);
+        height: 80px;
+        width: 80px;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
@@ -562,22 +570,30 @@ a{
     }
 
     #discord:hover{
+        background-image: url(https://cdn.discordapp.com/attachments/1077258727977123990/1183556326027173978/icons8-discord-65.png?ex=6588c3b9&is=65764eb9&hm=3776b4840124e04e0c7f000752b86b465f15d917515cdedc25d1b73372f9658e&);
         background-color: #ffffff00;
-        height: 75px;
+        height: 80px;
+        width: 80px;
     }
 
     #spotify:hover{
+        background-image: url(https://cdn.discordapp.com/attachments/1077258727977123990/1183556327893639258/icons8-spotify-65.png?ex=6588c3b9&is=65764eb9&hm=a32dac23f5261963a0fef3d933acafcbf25b9941fc0ed8185f4cae2d2b5bd551&);
         background-color: #ffffff00;
-        height: 75px;
+        height: 80px;
+        width: 80px;
     }
 
     #github:hover{
+        background-image: url(https://cdn.discordapp.com/attachments/1077258727977123990/1183556326522105927/icons8-github-65.png?ex=6588c3b9&is=65764eb9&hm=c0628fff8530ab3fa71dfc6f428c53142cef31400dc25933a3aa24fb31d8f736&);
         background-color: #ffffff00;
-        height: 75px;
+        height: 80px;
+        width: 80px;
     }
 
     #linkedin:hover{
+        background-image: url(https://cdn.discordapp.com/attachments/1077258727977123990/1183556327264505876/icons8-linkedin-65.png?ex=6588c3b9&is=65764eb9&hm=8148eff45d863036de3e983b029c7e09bbe5186598ad7f50536515ae63383695&);
         background-color: #ffffff00;
-        height: 75px;
+        height: 80px;
+        width: 80px;
     }
 }

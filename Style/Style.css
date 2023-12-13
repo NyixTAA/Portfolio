@@ -18,6 +18,10 @@ body{
     display: flex;
 }
 
+.phone-bg{
+    display: none;
+}
+
 .video{
     height: 1080px;
     width: 100%;
@@ -467,10 +471,15 @@ a{
         flex-direction: column;
         align-items: center;
         padding: 0;
-        background-image: url(https://i0.wp.com/i.pinimg.com/originals/f2/44/79/f24479553e8919bb806886e7454de13f.gif);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
+    }
+
+    .phone-bg{
+        display: block;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        z-index: -1;
+        object-fit: fill;
     }
 
     .container-esquerda{
@@ -521,7 +530,7 @@ a{
     }
 
     video{
-        opacity: 0;
+        display: none;
     }
 
     #discord{

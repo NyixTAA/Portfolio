@@ -480,6 +480,7 @@ a{
         position: fixed;
         z-index: -1;
         object-fit: fill;
+        filter: blur(2px);
     }
 
     .container-esquerda{
